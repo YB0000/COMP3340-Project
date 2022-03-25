@@ -1,0 +1,99 @@
+/* 个人中心 */
+.bodyUserSetting {
+	box-sizing: border-box;
+	padding: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.bodyUserSettingN {
+	box-sizing: border-box;
+	padding: 30px;
+	padding-left: 100px;
+	width: 100%;
+	display: flex;
+	color: white;
+	justify-content: flex-start;
+}
+
+.bodyUserSettingS {
+	box-sizing: border-box;
+	padding: 30px;
+	padding-right: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.bodyUserSettingBox {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding-right: 25px;
+	border-right: 1px solid #b3b1b5;
+}
+
+.bodyUserSettingHeadPic {
+	display: flex;
+	align-items: center;
+}
+
+.bodyUserSettingHeadPic img {
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #808080;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+} 
+
+.bodyUserSettingInfo {
+	margin-top: 50px;
+}
+
+.bodyUserSettingInfo input {
+	box-sizing: border-box;
+	padding: 0 8px;
+	border: none;
+	border-bottom: 1px solid gray;
+	outline: none;
+}
+
+.bodyUserSettingBtn {
+	display: flex;
+	justify-content: center;
+}
+
+.bodyUserSettingBtn button {
+	padding: 10px 40px;
+	border: none;
+	border-radius: 15px;
+	background-color: #3A383C;
+	color: white;
+	cursor: pointer;
+}
+
+.bodyUserStatisticsBox {
+	box-sizing: border-box;
+	margin-left: 25px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.bodyUserStatisticsBox p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.bodyUserStatisticsBox div {
+	margin-top: 25px;
+}
+
+.bodyUserStatisticsBox div span {
+	font-size: 16px;
+	font-weight: bold;
+	
+}
